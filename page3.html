@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>หน้าที่ 3 - ตารางกิจวัตรประจำวัน</title>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      background-color: #B9F8CF;
+      font-family: courier, sans-serif;
+    }
+    h1 { font-family: courier; color: red; text-align: center; }
+    h2 { font-family: courier; text-align: center; }
+    table { margin: 0 auto; border-collapse: collapse; width: 65%; }
+    table, th, td { border: 2px solid #333; }
+    th { background-color: #2196F3; color: white; padding: 10px; text-align: center; }
+    td { padding: 10px; text-align: center; color: #333; }
+    tr:nth-child(even) { background-color: #d4f7e7; }
+    tr:nth-child(odd) { background-color: #ffffff; }
+    .nav-buttons { display: flex; justify-content: center; gap: 20px; margin: 30px 0; }
+    button { padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: #2196F3; color: white; border: none; border-radius: 8px; }
+    button:hover { background-color: #1565C0; }
+  </style>
+</head>
+<body>
+  <h1>หน้าที่ 3 - ตารางกิจวัตรประจำวัน</h1>
+  <h2>ตารางกิจวัตรประจำวัน</h2>
+
+  <table>
+    <tr><th>วัน</th><th>กิจกรรม</th></tr>
+    <tr><td>จันทร์</td><td>ช่วงเช้าเรียนระบบฯ ช่วงบ่ายเรียนอังกฤษและเพศ</td></tr>
+    <tr><td>อังคาร</td><td>ช่วงเช้าเรียนพื้นฐานฯ ช่วงบ่ายเรียนการใช้งานฯ</td></tr>
+    <tr><td>พุธ</td><td>ช่วงเช้าเรียนสร้างเว็บไซต์ฯ ช่วงบ่ายเรียนจีนและจิตอาสา</td></tr>
+    <tr><td>พฤหัสบดี</td><td>ช่วงเช้าเรียนไมโครฯ ช่วงบ่ายเรียนโปรแกรมฯ</td></tr>
+    <tr><td>ศุกร์</td><td>เรียน โปรแกรมสำนักงาน</td></tr>
+    <tr><td>เสาร์</td><td>อยู่บ้านพักผ่อน</td></tr>
+    <tr><td>อาทิตย์</td><td>อยู่บ้านพักผ่อน</td></tr>
+  </table>
+
+  <div class="nav-buttons">
+    <button onclick="document.location='page2.html'">← หน้าที่ 2</button>
+    <button onclick="document.location='index.html'">กลับหน้าแรก</button>
+  </div>
+</body>
+</html>
